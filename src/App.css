@@ -1,0 +1,133 @@
+
+body.light {
+  background: #f8f8fb;
+  color: #0c0e16;
+}
+
+body.dark {
+  background: #141625;
+  color: #fff;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  transition: 0.3s;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #5db9fa;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* FILTER */
+select {
+  padding: 8px;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+/* INVOICE CARD */
+.invoice-card {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+body.dark .invoice-card {
+  background: #1e2139;
+}
+
+.invoice-card:hover {
+  transform: scale(1.02);
+}
+
+/* STATUS BADGE */
+.status {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.paid {
+  background: #33d69f33;
+  color: #33d69f;
+}
+
+.pending {
+  background: #ff8f0033;
+  color: #ff8f00;
+}
+
+.draft {
+  background: #0edb1533;
+  color: #373b53;
+}
+
+/* FORM */
+.form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+body.dark .form {
+  background: #1e2139;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* DETAIL */
+.detail {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body.dark .detail {
+  background: #1e2139;
+}
+.back-btn {
+  background: transparent;
+  color: #7c5dfa;
+  margin-bottom: 15px;
+}
+.button{
+  margin-inline: 4px;
+}
